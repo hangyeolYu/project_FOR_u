@@ -1,0 +1,15 @@
+.main{
+    background-color: rgb(218, 208, 196);
+    padding: 20px;
+    
+    border-radius: 20px;
+    width:700px;
+    margin: 200px 1px 10px 500px ;
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    display:block;
+}
