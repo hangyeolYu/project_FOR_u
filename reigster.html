@@ -10,12 +10,65 @@
 <body>
     <div class="main">
         <form action="#" method="POST">
-            <h1>일단 메인 박스</h1>
+            <h1>FOR u</h1>
             <br>
-            <label for="name">이름</label>
+            <div class="id">
+            <label for="name">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이름</label>
             <br>
-            <input type="text" id="name" name="sName" placeholder="이름"/>
+            <input type="text" id="name" name="iName" placeholder="이름"/>
+             </div>
             <br>
+            <div class="mail">
+                <label for="e_mail">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이메일</label>
+                <br>
+                <input type="text" id="e_mail1" name="mail1" placeholder="이메일"/>@<input type="text" id="e_mail2" name="mail2"/>
+                <select name="email_select" class="box" id="email_select" onChange="checkemailaddy();">
+                    <option value="" selected>선택하세요</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="hotmail.com">hotmail.com</option>
+                    <option value="hanmail.com">hanmail.com</option>
+                    <option value="yahoo.co.kr">yahoo.co.kr</option>
+                    <option value="1">직접입력</option>
+                </select>
+                 </div>
+                <br>
+                
+            <div class="pwd">
+                <label for="pwd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp비밀번호</label>
+                <br>
+                <input type="password" id="pwd" name="pwd" placeholder="비밀번호"/>
+                 </div>
+                <br>
+                <div class="pwdCheck">
+                    <label for="pwdCheck">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp비밀번호 확인</label>
+                    <br>
+                    <input type="password" id="pwdCheck" name="pwdCheck" placeholder="비밀번호 확인"/>
+                     </div>
+                    <br>
+
+            <div class="date">
+                <label for="choseDate">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp생년월일</label>
+                    <br>
+                    <input type="date" id="choseDate" name="chose" value="1998-02-03" min="1950-01-01" max="2019-12-31">
+            </div>
+            <br>
+            <div class="hash">
+                <label for="hash">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp생년월일</label>
+                    <br>
+                    <input type="checkbox" id="hash" name="hashtag" value="여행">여행</input>
+                    <input type="checkbox" id="hash" name="hashtag" value="음식">음식</input>
+                    <input type="checkbox" id="hash" name="hashtag" value="사진">사진</input>
+                    <input type="checkbox" id="hash" name="hashtag" value="장소">장소</input>
+                    
+            </div>
+            <br>
+            
 
         </form>
     </div>
